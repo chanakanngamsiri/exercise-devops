@@ -18,7 +18,7 @@ describe('GET "/"', () => {
 
 describe('GET "/items"', () => {
     it('respond with /items', (done) => {
-        let want= '[{"id":1,"name":"iphone 12 pro max"},{"id":2,"name":"Googel Pixel 5"}]'
+        let want= '[{"id":60160032,"name":"chanakan ngamsiri"},{"id":60160219,"name":"amm"}]'
         request(app).get('/items').expect(want,done)
     })
 })

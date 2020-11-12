@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const port = process.env.PORT || 3000
 
-let items = [{id:1,name:'iphone 12 pro max'},{id:2,name:'Googel Pixel 5'}]
+let items = [{id:60160032,name:'chanakan ngamsiri'},{id:60160219,name:'kanyaruk'}]
 
 app.get('/', (req, res) => {
     return res.send('Hello!')
